@@ -60,7 +60,7 @@ The main steps:
 npm install -g query-overpass
 ```
 
-Enter the coorindates you took from the openstreetmap.org site in the following order: S, W, N E, so for example with UK cooridinates:
+Enter the coorindates you took from the openstreetmap.org site in the following order: S, W, N, E, so for example with UK cooridinates:
 ```
 echo 'node(49.507,-11.804,61.275,2.256)[amenity=pub];out;' | query-overpass >> map.json
 ```
