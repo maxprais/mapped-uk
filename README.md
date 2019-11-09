@@ -1,4 +1,4 @@
-# mapped-uk
+# Mapped pubs in the UK
 
 Create a map of the UK based on certain fun statistics (currently works for pubs)
 
