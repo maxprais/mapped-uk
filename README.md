@@ -29,9 +29,9 @@ In the line that you add the csv file name to, add `error_bad_lines=False`. This
 df = pd.read_csv('pubsuk.csv', error_bad_lines=False)
 ```
 
-#### Remove the lines of code that say:
+#### Remove some lines of code:
 
-This tries to remove all unrequired lines but doesn't work with the current format.
+This doesn't work with the current api format.
 ```
 df.dropna(axis=1, how='any', inplace=True)
 ```
